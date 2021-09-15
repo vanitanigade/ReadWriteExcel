@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-14T15:38:09 IST" name="Default suite" finished-at="2021-09-14T15:38:15 IST" duration-ms="6079">
+  <suite started-at="2021-09-15T23:02:47 IST" name="Default suite" finished-at="2021-09-15T23:02:53 IST" duration-ms="5878">
     <groups>
     </groups>
-    <test started-at="2021-09-14T15:38:09 IST" name="Default test" finished-at="2021-09-14T15:38:15 IST" duration-ms="6079">
-      <class name="com.dataprovider.ExcelsheetDataProvider">
-        <test-method is-config="true" signature="openBrowserAndUrl()[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:09 IST" name="openBrowserAndUrl" finished-at="2021-09-14T15:38:12 IST" duration-ms="3140" status="PASS">
+    <test started-at="2021-09-15T23:02:47 IST" name="Default test" finished-at="2021-09-15T23:02:53 IST" duration-ms="5878">
+      <class name="com.dataprovider.ManualDataProvider">
+        <test-method is-config="true" signature="openBrowserAndUrl()[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:47 IST" name="openBrowserAndUrl" finished-at="2021-09-15T23:02:50 IST" duration-ms="3159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserAndUrl -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:12 IST" name="login" data-provider="loginData" finished-at="2021-09-14T15:38:12 IST" duration-ms="328" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:50 IST" name="login" data-provider="loginData" finished-at="2021-09-15T23:02:50 IST" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:12 IST" name="login" data-provider="loginData" finished-at="2021-09-14T15:38:13 IST" duration-ms="223" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:50 IST" name="login" data-provider="loginData" finished-at="2021-09-15T23:02:51 IST" duration-ms="206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[kiran@gmail.com]]>
+                <![CDATA[abc]]>
               </value>
             </param>
             <param index="3">
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:13 IST" name="login" data-provider="loginData" finished-at="2021-09-14T15:38:13 IST" duration-ms="189" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:51 IST" name="login" data-provider="loginData" finished-at="2021-09-15T23:02:51 IST" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[kiran*12345@gmail.com]]>
+                <![CDATA[abc]]>
               </value>
             </param>
             <param index="3">
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:13 IST" name="login" data-provider="loginData" finished-at="2021-09-14T15:38:13 IST" duration-ms="199" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:51 IST" name="login" data-provider="loginData" finished-at="2021-09-15T23:02:51 IST" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[12*3126]]>
+                <![CDATA[112233]]>
               </value>
             </param>
             <param index="4">
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:13 IST" name="login" data-provider="loginData" finished-at="2021-09-14T15:38:15 IST" duration-ms="1763" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:51 IST" name="login" data-provider="loginData" finished-at="2021-09-15T23:02:53 IST" duration-ms="1591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,11 +166,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.dataprovider.ExcelsheetDataProvider@48f2bd5b]" started-at="2021-09-14T15:38:15 IST" name="closeDriver" finished-at="2021-09-14T15:38:15 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.dataprovider.ManualDataProvider@3b0fe47a]" started-at="2021-09-15T23:02:53 IST" name="closeDriver" finished-at="2021-09-15T23:02:53 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.dataprovider.ExcelsheetDataProvider -->
+      </class> <!-- com.dataprovider.ManualDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

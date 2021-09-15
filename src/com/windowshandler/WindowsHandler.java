@@ -19,7 +19,7 @@ public class WindowsHandler {
 		driver.manage().window().maximize();
 		driver.get("https://www.naukri.com");
 
-	/*	String mainWindow = driver.getWindowHandle();
+		String mainWindow = driver.getWindowHandle();
 		Set<String> set = driver.getWindowHandles();
 		Iterator<String> itr = set.iterator();
 		while (itr.hasNext()) {
@@ -31,7 +31,7 @@ public class WindowsHandler {
 			}
 		}
 		driver.switchTo().window(mainWindow); 
-	*/	
+		
 	}
 
 }
